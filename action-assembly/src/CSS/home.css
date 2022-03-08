@@ -1,0 +1,25 @@
+.two-cols {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    padding-top: 70px;
+    width: 50%;
+}
+
+.right {
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    padding-top: 130px;
+}
+
+
+img {
+    /* margin-right: 5%; */
+    margin-left: 10%;
+    margin-top: 1%;
+    height: 650px;
+    margin-bottom: 10%;
+}

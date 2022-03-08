@@ -1,0 +1,20 @@
+.protest-list {
+    background-color: #d22a36;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.protest-element {
+    padding: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    background-color: #111213;
+    list-style: none;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.user {
+    color: white;
+    margin-left: 40px;
+}

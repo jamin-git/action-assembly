@@ -1,0 +1,37 @@
+.sign-out-box {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 50%;
+    background-color: #921d26;
+    justify-content: center;
+}
+
+.welcome-splash {
+    /* justify-self: center; */
+    text-align: center;
+    margin-left: 0;
+    color: white;
+}
+
+.sign-out-button {
+    justify-self: center;
+    font-size: calc(10px + 2vmin);
+    height: 80px;
+    width: 200px;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    background-color: #111213;
+    border-color: #736b5e;
+    color: white;
+    margin: auto auto;
+}
+
+.sign-out-button:hover {
+    transform: scale(1.03);
+}

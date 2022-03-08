@@ -1,0 +1,72 @@
+.content-body {
+  display: flexbox;
+  flex-direction: columns;
+}
+
+h1 {
+  margin-left: 40px;
+  color: white;
+}
+
+/* .parent {
+  display: flex;
+  direction: row;
+} */
+
+.searchbox {
+  background-color: #111213;
+  border-radius: 5px;
+  color: white;
+  width: 400px;
+  height: 20px;
+  margin-left: 40px;
+}
+
+.searchbutton {
+  background-color: #111213;
+  border-radius: 5px;
+  color: white;
+  font-size: larger;
+  align-self: center;
+  margin-left: 5px;
+  height: 28px;
+  width: 100px;
+}
+
+.protest-element {
+  position: relative;
+  z-index: 1;
+}
+
+.protest-element:not(:hover) {
+  border-radius: 10px;
+  transform: scale(1);
+  transition-duration: 0.3s;
+  box-shadow: 0 0 0rem rgba(0, 0, 0, 0.3);
+}
+
+.protest-element:hover {
+  z-index: 9;
+  border-radius: 10px;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.3);
+  /* animation-name: drop-shadow;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out; */
+  /* animation: drop-shadow 0.9s exponential 0 infinite forward; */
+}
+
+/* @keyframes drop-shadow {
+  100% {transform: scale(1.01);}
+} */
+
+.protest-list {
+  margin-bottom: 100px;
+}
+
+#dash{ 
+  padding-left: px;
+  padding-top: 100px;
+}

@@ -1,0 +1,55 @@
+.centered2 {
+  /* position: fixed;
+  top: 50%;
+  left: 100%;
+  margin-right: 50px; */
+  position: fixed;
+  top: 50%;
+  left: 100%;
+
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: fit-content;
+  background-color: #921d26;
+  padding: 10px 10px;
+  border-radius: 20px;
+  filter: drop-shadow(-5px 5px 0.75rem black);
+}
+
+.create-button {
+  width: 100px;
+  height: 40px;
+  margin-top: 20px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  color: white;
+  border-color: #736b5e;
+  background-color: #111213;
+  font-size: larger;
+}
+
+.centered h1 {
+  text-align: center;
+  color: white;
+}
+.centered form {
+  padding: 2% 5%;
+  padding-left: 100px;
+}
+
+.centered p {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.field-name {
+  color: white;
+}
+
+#input{
+  border-radius: 5px;
+  color: white;
+  background-color: #111213;
+  border-color: #736b5e;
+}

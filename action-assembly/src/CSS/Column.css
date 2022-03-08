@@ -1,0 +1,24 @@
+.col {
+    padding-top: 5%;
+    width: 45vw;
+    margin: 16px;
+    float: left;
+}
+
+.col h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+}
+
+.col p {
+    padding-left: 30%;
+    text-align: left;
+    font-size: 2rem;
+    color: white;
+}
+
+/* Unused for now */
+.col p span {
+    color: red;
+}
